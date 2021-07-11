@@ -1,0 +1,11 @@
+framework module FrameworkDataWeather {
+  umbrella header "FrameworkDataWeather.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameworkDataWeather.Swift {
+    header "FrameworkDataWeather-Swift.h"
+    requires objc
+}
